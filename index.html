@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Telemática</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            text-align: center;
+            padding: 3rem 1rem;
+        }
+
+        nav {
+            background: #2a5298;
+            padding: 1rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            transition: background 0.3s;
+        }
+
+        nav a:hover {
+            background: rgba(255,255,255,0.1);
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        section {
+            margin-bottom: 4rem;
+            padding: 2rem;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        h2 {
+            color: #1e3c72;
+            margin: 1.5rem 0;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid #1e3c72;
+        }
+
+        h3 {
+            color: #2a5298;
+            margin: 1rem 0;
+        }
+
+        p {
+            margin-bottom: 1rem;
+        }
+
+        .img-container {
+            margin: 2rem 0;
+            text-align: center;
+        }
+
+        .img-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 0.5rem;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .img-container img:hover {
+            transform: scale(1.02);
+        }
+
+        .img-caption {
+            font-style: italic;
+            color: #666;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+
+        .card {
+            padding: 1.5rem;
+            background: #f8f9fa;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 4px;
+            margin-bottom: 1rem;
+        }
+
+        ul, ol {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        footer {
+            background: #1e3c72;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 4rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>La Telemática</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#definicion">¿Qué es la telemática?</a></li>
+            <li><a href="#origen">Origen</a></li>
+            <li><a href="#aplicaciones">Para que sive la telemática</a></li>
+            <li><a href="#ventajas">Ventajas y Desventajas de la telemática</a></li>
+            <li><a href="#convergencia">Union de telecomunicaciones e informática</a></li>
+            <li><a href="#futuro">Comentario personal</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="definicion">
+            <h2>¿Qué es la Telemática?</h2>
+            <div class="img-container">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-xJ0HIwjfDXV21JcxtT_UYTQAwPlR6lLECg&s">
+                <p>
+                </p>
+                <p class="img-caption">Integración de las telecomunicaciones y la informática</p>
+            </div>
+            <p>
+                Es la disciplina que, a través del estudio y control de las tecnologías informáticas y las telecomunicaciones, permite el diseño, desarrollo y despliegue de servicios o aplicaciones distribuidas, que ofrecen al usuario final demandante de información la utilización de los recursos disponibles en cualquier punto. La interoperabilidad, la calidad de servicio y la seguridad son aspectos fundamentales y claves para que esta convergencia de servicios sea funcional y atractiva. Es la acción de dos tecnologías, las tecnologías de la información que componen los sistemas informáticos y las comunicaciones, trabajando de forma vertical e independiente, y al mismo tiempo preocupándose únicamente por proporcionar al usuario final la mayor potencia disponible, pese a que cada circunstancia demandaría una respuesta con un balance más complejo. Es el concepto de "Dentro del Campus" y "Fuera del Campus", que, basándose en tecnologías, ofrece un buen rendimiento y que está liberado de las restricciones de distancia y plataforma. Las metodologías de trabajo pasan por la definición de arquitecturas, la implantación de sistemas y la gestión de redes, desde una única unidad, explicitando los proyectos que abarcan funciones de telemática y, por otra parte, aquellos que abarcan o interactúan con redes. En cuanto a arquitecturas y telemática, se definirían, implantarían y gestionarían las redes y sistemas propios, tanto a nivel regional como específicos de cada centro. Los principios fundamentales son los de asegurar globalmente la compatibilidad entre computadores, terminales, sistemas y redes, pero permitiendo al mismo tiempo disponer de maniobrabilidad para afrontar situaciones reales y para implantar soluciones específicas en el ámbito del centro donde sea imprescindible, para implantar diversas redes internas a medida, cada una con el objetivo de asegurar óptimamente las prestaciones requeridas.
+            </p>
+            <p>Esta disciplina abarca:</p>
+            <ul>
+                <li>Transmisión de datos digitales</li>
+                <li>Redes de computadoras</li>
+                <li>Protocolos de comunicación</li>
+                <li>Servicios de red</li>
+                <li>Aplicaciones distribuidas</li>
+            </ul>
+        </section>
+
+        <section id="origen">
+            <h2>Origen de la Telemática</h2>
+            <div class="img-container">
+                <img src="https://telematicaeylin.wordpress.com/wp-content/uploads/2019/11/images.jpg" 
+                     alt="Historia de la Telemática">
+                <p class="img-caption">Evolución histórica de la telemática</p>
+            </div>
+            <p>
+                La palabra surge de la fusión de varios términos: telecomunicación, que es el campo de la ciencia que estudia cómo se transmiten los mensajes a distancia, y de informático, que es el conjunto de conocimientos técnicos necesarios para llevar a cabo las tareas relacionadas con el tratamiento y transmisión de la información. Actualmente, la telemática está orientada a la comunicación a distancia entre personas, y entre personas y dispositivos informáticos, ya que el resto de la comunicación a distancia no utiliza la informática de forma intensiva. Las informaciones sobre el origen de la telemática se limitan generalmente a algunos desarrollos tecnológicos, sin embargo, pocos analizan en profundidad cuáles circunstancias históricas anduvieron a cada uno de ellos. La idea de una intensa colaboración entre la investigación y la industria, tal vez alguna de las más atrayentes a la hora de analizar la etapa de esplendor de la telemática en la segunda mitad del siglo XX por su rápida transformación en un auténtico paradigma, debe entenderse no sólo en cuanto a dinámicas puntuales en este o aquel ámbito, sino también como el resultado de tendencias más amplias que, a su vez, son el fruto de una compleja trama de sucesos y reacciones encaminados a un fin que a menudo es deseado y proyectado pero no necesario.
+            </p>
+            
+            <div class="grid">
+                <div class="card">
+                    <h3>1960s</h3>
+                    <p>Desarrollo de las primeras redes de computadoras y creación de ARPANET</p>
+                </div>
+                <div class="card">
+                    <h3>1970s</h3>
+                    <p>Nacimiento del término "telemática" y primeras aplicaciones prácticas</p>
+                </div>
+                <div class="card">
+                    <h3>1980s</h3>
+                    <p>Expansión de redes comerciales y desarrollo de protocolos estándar</p>
+                </div>
+                <div class="card">
+                    <h3>1990s</h3>
+                    <p>Popularización de Internet y explosión de aplicaciones telemáticas</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="aplicaciones">
+            <h2>Para que sirve qué sirve la telemática</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Interconexión de sistemas:</h3>
+
+                    <img src="https://tutorialhoy.com/wp-content/uploads/2023/12/modelo-OSI-y-capas-o-niveles-que-son-y-para-que-sirven-1.png" 
+                         alt="interconexiones">
+                    <ul>
+                        <li>Facilita la comunicación entre diferentes sistemas informáticos, lo que es crucial para el funcionamiento de empresas y organizaciones en un mundo globalizado</li>
+                    </ul>
+                </div>
+                
+                <div class="card">
+                    <h3>Automatización de procesos</h3>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmzADQkUoGYSpPVhub6PDmvjOTp4kAXgnzjg&s" 
+                         alt="Automatización">
+                    <ul>
+                        <li>Permite el control remoto de sistemas y procesos, lo que reduce el riesgo humano y aumenta la eficiencia operativa</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>Servicios masivos</h3>
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpOeZWgemq0pq9Zjn4cRTPk835Uiac0n4SvqesDQcRZbYyu0yWC0gI6R1hXHz15QgtHQ9Z-jP1b4Hxm0flg-6qXK8PhFsn7l9CaeEaBalNi2QbyzBWQQt4yRy_E2b2UBNseGMzvPX9FxI/s1600/grre.jpg" alt="">
+                    alt="Servicios">
+                    <ul>
+                        <li> Abarca aplicaciones en áreas como la teleeducación, el comercio electrónico (e-commerce) y la administración electrónica (e-government), mejorando el acceso a servicios</li>
+                       
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Rastreo y logística</h3>
+                    <img src="https://satech.mx/wp-content/uploads/2024/06/528e5635-c3db-427a-aab6-7d1cffb2054f.png" alt="">
+                    alt="Rastreo">
+                    <ul>
+                        <li>Utiliza tecnologías como GPS para el seguimiento de vehículos y mercancías, optimizando así las operaciones logística</li>
+                        
+                    </ul>
+                </div>
+
+
+
+
+
+            </div>
+        </section>
+
+        <section id="ventajas">
+            <h2>Ventajas y Desventajas de la telemática</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Ventajas</h3>
+                    <ul>
+                        <li>Comunicación global instantánea</li>
+                        <li>Reducción de costos operativos</li>
+                        <li>Mayor eficiencia en procesos</li>
+                        <li>Acceso remoto a servicios</li>
+                        <li>Automatización de tareas</li>
+                        <li>Mejora en toma de decisiones</li>
+                        <li>Facilitación del trabajo remoto</li>
+                        <li>Optimización de recursos</li>
+                        <br>
+                        <img src="https://envuemex.com/wp-content/uploads/2024/05/9d5e8630-4deb-4367-8908-35560918b6c9-1.webp" alt="">
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>Desventajas</h3>
+                    <ul>
+                        <li>Dependencia tecnológica</li>
+                        <li>Vulnerabilidad a ciberataques</li>
+                        <li>Alta inversión inicial</li>
+                        <li>Necesidad de capacitación continua</li>
+                        <li>Posibles fallos técnicos</li>
+                        <li>Problemas de privacidad</li>
+                        <li>Brecha digital</li>
+                        <li>Obsolescencia tecnológica</li>
+                        <br>
+                        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTkqsueCldBIOyyujpg2jFJZqb93kgu0T5CrzwVYXc3HaI-t6rBQ6QaYkFatCj5BFLHizWOiQeckSqaD6pK6PtXBr6s6yv-tD2nxqurXw5wDrQ_KSiMBNi4gaSs4TUNSnP5setm8y9Bpw/s1600/telem%C3%A1tica.jpg" width="500" height="500">
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="convergencia">
+            <h2>Unión de telecomunicaciones e informática.</h2>
+            <div class="img-container">
+                    <img src="https://micarrerauniversitaria.com/wp-content/uploads/2018/02/ingenieria-telematica-6.jpg" alt="" width="450" height="450">                
+                     
+                <p class="img-caption">Unión de las telecomunicaciones con la informática.</p>
+            </div>
+            <ul>
+                <li>La unión entre telecomunicaciones e informática se formalizó en los años 70, dando origen al término "telemática". Este desarrollo fue impulsado por la necesidad de integrar diversas tecnologías para mejorar la comunicación y el intercambio de información. La telemática ha evolucionado con los avances tecnológicos, permitiendo una mayor conectividad y eficiencia en el manejo de datos. Su aplicación se ha expandido a múltiples sectores, desde el transporte hasta la educación y los servicios públicos, reflejando su importancia en un mundo interconectado</li>
+        </section>
+
+        <section id="futuro">
+            <h2>    Comentario personal</h2>
+            <div class="img-container">
+            </div>
+            <div class="grid">
+                    <h3>Desde mi perspectiva, la telemática es fundamental para el desarrollo moderno. Su capacidad para conectar sistemas e individuos ha transformado industrias enteras, facilitando el acceso a información y servicios. Sin embargo, es esencial abordar sus implicaciones éticas y sociales para maximizar sus beneficios mientras se minimizan los riesgos asociados. La clave está en utilizar esta tecnología de manera responsable, garantizando que su desarrollo beneficie a toda la sociedad sin comprometer valores fundamentales como la privacidad y el bienestar social.</h3>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>La telemática es fundamental para el desarrollo de la sociedad digital del siglo XXI</p>
+    </footer>
+</body>
+</html>
